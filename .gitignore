@@ -1,5 +1,6 @@
 # removing data from control version
 data/
+*.pem
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
