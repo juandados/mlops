@@ -5,15 +5,17 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "*"
+jupyterlab = "*"
+jupyter = "*"
 
 [packages]
 pandas = "*"
 sklearn = "*"
-jupyter = "*"
 google-cloud-bigquery = "*"
 matplotlib = "*"
 kaggle = "*"
 seaborn = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    image: mlops
+    build: .
+    privileged: true
+    network_mode: host
+    env_file: .env
+    volumes:
+      - .:/mlops
+    working_dir: /mlops
+    user: root

@@ -1,6 +1,8 @@
 # removing data from control version
 data/
 *.pem
+*.swp
+*.swo
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
