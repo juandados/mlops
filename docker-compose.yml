@@ -9,5 +9,6 @@ services:
     env_file: .env
     volumes:
       - .:/mlops
+      - ./.kaggle:/root/.kaggle
     working_dir: /mlops
     user: root

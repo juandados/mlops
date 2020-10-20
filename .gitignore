@@ -3,6 +3,7 @@ data/
 *.pem
 *.swp
 *.swo
+.kaggle/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
