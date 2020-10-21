@@ -15,7 +15,7 @@ google-cloud-bigquery = "*"
 matplotlib = "*"
 kaggle = "*"
 seaborn = "*"
-tensorflow = "*"
+tensorflow = "==2.0.1"
 framequery = "*"
 fsspec = "*"
 featuretools = "*"
@@ -27,4 +27,5 @@ pillow = "*"
 dash = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
+
